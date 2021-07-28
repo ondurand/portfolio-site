@@ -1,0 +1,32 @@
+/* Font Family Rules
+font-family: 'Roboto Slab', serif;
+font-family: 'Ruda', sans-serif;
+*/
+
+/* Element Styling */
+
+body {
+  font-family: "Roboto Slab", serif;
+  font-size: 16px;
+  background-color: #a4ddd0;
+}
+
+h1 {
+  font-family: "Ruda", sans-serif;
+  font-weight: 800;
+  font-size: 3rem;
+}
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+p {
+  text-align: left;
+  line-height: 1.6;
+}
+
+/* Layout Styling */
