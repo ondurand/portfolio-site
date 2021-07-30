@@ -8,7 +8,6 @@ font-family: 'Ruda', sans-serif;
 body {
   font-family: "Roboto Slab", serif;
   font-size: 16px;
-  background-color: #a4ddd0;
 }
 
 h1 {
@@ -30,3 +29,30 @@ p {
 }
 
 /* Layout Styling */
+
+header {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  z-index: 10;
+  /* margin-top: -100px; */
+}
+
+header h1 {
+  height: 75px;
+  padding-left: 15px;
+}
+
+nav {
+  display: inline-flex;
+  padding-right: 15px;
+  width: 25%;
+  justify-content: space-between;
+}
+
+img {
+  width: 40%;
+}
