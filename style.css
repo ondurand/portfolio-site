@@ -71,6 +71,7 @@ nav {
 
 .profile {
   display: inline-flex;
+  padding-top: 5%;
 }
 
 img {
@@ -82,8 +83,21 @@ img {
   width: 40%;
 }
 
+.skills {
+  padding-top: 5%;
+}
+
+.skill-icons {
+  display: inline-flex;
+  width: 100%;
+}
+
+.skill-icons i {
+  padding: 15px 5% 15px 0;
+}
+
 footer {
-  background-color:gray;
+  background-color: gray;
   margin-top: 4rem;
   display: flex;
   width: 100%;
