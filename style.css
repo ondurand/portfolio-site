@@ -28,6 +28,18 @@ p {
   line-height: 1.6;
 }
 
+.skill-icons i {
+  font-size: 3em;
+}
+
+.contact-links i {
+  font-size: 2em;
+}
+
+.footer-contact i {
+  font-size: 1em;
+}
+
 /* Layout Styling */
 
 header {
