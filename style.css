@@ -42,18 +42,31 @@ header {
 }
 
 header h1 {
-  height: 75px;
-  padding-left: 15px;
+  padding-left: 5%;
 }
 
 nav {
   display: inline-flex;
-  padding-right: 15px;
+  padding-right: 5%;
   width: 25%;
   justify-content: space-between;
 }
 
+.main {
+  padding-top: 100px;
+  padding-left: 5%;
+}
+
+.profile {
+  display: inline-flex;
+}
+
 img {
+  width: 40%;
+  padding-right: 5%;
+}
+
+.about {
   width: 40%;
 }
 
