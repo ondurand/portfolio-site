@@ -26,6 +26,7 @@ h2 {
   font-size: 1.5em;
   font-weight: bold;
   text-transform: uppercase;
+  margin-bottom: 0.75em;
 }
 
 h3 {
@@ -33,6 +34,7 @@ h3 {
   margin-top: 0.75em;
   font-weight: bold;
   text-transform: uppercase;
+  margin-bottom: 0.75em;
 }
 
 h4 {
@@ -42,7 +44,6 @@ h4 {
 p {
   text-align: left;
   line-height: 1.6;
-  margin-top: 0.75em;
 }
 
 header {
