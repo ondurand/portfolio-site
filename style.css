@@ -18,7 +18,7 @@ body {
 h1 {
   font-family: "Ruda", sans-serif;
   font-weight: 800;
-  font-size: 3rem;
+  font-size: 3em;
 }
 
 h2 {
@@ -28,9 +28,21 @@ h2 {
   text-transform: uppercase;
 }
 
+h3 {
+  font-size: 1.2em;
+  margin-top: 0.75em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h4 {
+  text-transform: uppercase;
+}
+
 p {
   text-align: left;
   line-height: 1.6;
+  margin-top: 0.75em;
 }
 
 header {
@@ -86,6 +98,29 @@ img {
 
 .skill-icons i {
   padding: 15px 5% 15px 0;
+}
+
+.projects-about {
+  padding: 5% 0 5% 0;
+  width: 90%;
+  background-color: tan;
+}
+
+.projects {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+
+.project {
+  background-color: lightgreen;
+  display: inline-flex;
+  /* align-items: center; */
+  margin-top: 5%;
+}
+
+.project img {
+  width: 25%;
 }
 
 .contact-links i {
