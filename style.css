@@ -5,6 +5,10 @@ font-family: 'Ruda', sans-serif;
 
 /* Element Styling */
 
+html, body {
+  height: 100%;
+}
+
 body {
   font-family: "Roboto Slab", serif;
   font-size: 16px;
@@ -42,6 +46,11 @@ p {
 
 /* Layout Styling */
 
+body {
+  display: flex;
+  flex-direction: column;
+}
+
 header {
   display: inline-flex;
   justify-content: space-between;
@@ -50,7 +59,6 @@ header {
   height: 100px;
   position: fixed;
   z-index: 10;
-  /* margin-top: -100px; */
 }
 
 header h1 {
@@ -67,6 +75,7 @@ nav {
 .main {
   padding-top: 100px;
   padding-left: 5%;
+  flex: 1 0 auto;
 }
 
 .profile {
@@ -100,6 +109,7 @@ footer {
   background-color: gray;
   margin-top: 4rem;
   display: flex;
+  flex-shrink: 0;
   width: 100%;
   justify-content: flex-end;
   align-items: center;
