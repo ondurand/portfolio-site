@@ -80,8 +80,9 @@ nav {
 }
 
 img {
-  width: 40%;
-  padding-right: 5%;
+  width: 300px;
+  margin-right: 5%;
+  border-radius: 10px;
 }
 
 .about {
