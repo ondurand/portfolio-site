@@ -123,8 +123,31 @@ img {
   width: 25%;
 }
 
+.contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-about {
+  margin-bottom: 5%;
+  height: 30%;
+}
+
+.contact-links {
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.link-container {
+  display: inline-flex;
+  align-items: center;
+}
+
 .contact-links i {
   font-size: 2em;
+  padding-right: 5%;
 }
 
 footer {
