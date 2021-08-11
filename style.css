@@ -49,6 +49,11 @@ p {
 
 a {
   color: inherit;
+  transition: color 400ms ease;
+}
+
+a:hover {
+  color: red;
 }
 
 header {
@@ -108,6 +113,12 @@ img {
 
 .skill-icons i {
   padding: 15px 5% 15px 0;
+  transition: color 400ms ease 100ms, font-size 400ms ease 100ms;
+}
+
+.skill-icons i:hover {
+  color: red;
+  font-size: 115%;
 }
 
 .projects-about {
