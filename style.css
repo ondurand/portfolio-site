@@ -38,8 +38,9 @@ h3 {
 }
 
 h4 {
-  text-transform: uppercase;
+  font-size: 0.75em;
   margin-top: 0.5em;
+  text-transform: uppercase;
 }
 
 p {
@@ -106,19 +107,36 @@ img {
 }
 
 .skill-icons {
-  font-size: 3em;
   display: inline-flex;
   width: 100%;
 }
 
-.skill-icons i {
-  padding: 15px 5% 15px 0;
+.skill-icon {
+  padding: 15px 20px 15px 0;
+  width: 4em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skill-icon i {
+  font-size: 3em;
   transition: color 400ms ease 100ms, font-size 400ms ease 100ms;
 }
 
-.skill-icons i:hover {
+#command-line {
+  padding-left: 10px;
+}
+
+.skill-icon i:hover {
   color: red;
-  font-size: 115%;
+  font-size: 4em;
+}
+
+.skill-icon h4 {
+  color: red;
+  text-align: center;
+  display: none;
 }
 
 .projects-about {
